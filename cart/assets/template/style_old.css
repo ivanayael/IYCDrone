@@ -1,0 +1,160 @@
+/* CSS Document */
+body {
+	margin: 0px; color: #444;
+	background-color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; padding-top: 20px; padding-bottom: 20px;}
+
+    
+#container, #form_checkout{
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 	
+}  
+	
+#container{
+	width:800px; border: 5px solid #ccc;
+	margin-left: auto; margin-right: auto;
+    padding-top:3px; padding-bottom: 2px;}
+  
+   
+h1, h2, h3, h4, h5, h6 {font-weight: bold;color: #21759b;}
+h1 {font-size:20px;}
+h2 {font-size: 17px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+
+a {font-weight: bold; text-decoration: none; color: #21759b;}
+
+a:hover {color: #bf0100; padding-left: 3px;}
+
+#header{height:70px; padding-top:1px;
+        background: #f7f7f7; padding-left:10px;
+        text-align: left;} 
+
+#header h1 {
+	font-size:30px; font-family: "Times New Roman",Times,serif;
+	color: #bf0100; text-shadow: 0px 0px 2px #444;}
+	
+/*** MENU ***/
+#menu {padding:7px 0px 7px 0px; background: #2d3335;}
+
+#menu a {padding: 6px 15px; font-family: "Times New Roman",Times,serif;
+	text-decoration: none; font-size: 13px;
+	color: #FFF;}
+
+#menu ul {margin: 0; padding: 0; display:inline;}
+
+#menu li {
+	display: inline; background: #bf0100;
+    border-radius: 2px; padding: 4px 0px 4px 0px;
+    margin-left: 2px;}
+    
+#menu li a:hover{background: #444;}
+
+.cart_menu{background: #21759b !important;}
+
+/*** CONTENDIDO ***/
+#content{
+width: 790px;padding:5px; min-height:400px;}
+#pagination{clear: both; text-align: center;} 
+
+/*************** PRODUCTOS *******************/
+	.products{
+			height:350px; padding: 4px; margin: 4px;
+			border: 1px solid #ddd; background-color: #eee;
+			-moz-border-radius: 4px;-khtml-border-radius: 4px; 
+			-webkit-border-radius: 4px;border-radius: 4px;
+			text-align: center; float: left;
+		}
+		
+		.products p,label{
+			color: #21759b;font-weight:bold;
+			font-size: 12px;
+		}
+		.image{min-height: 184px; min-width: 245px;}
+		.image, .price{
+			padding-bottom: 5px;font-weight:bold;
+		}
+		.price{
+			color: #bf0100; 
+		}
+	.detalles{
+		max-width:200px;text-align: left;
+		margin-left:auto;
+	}
+	
+/****** CARRITO ******/
+#cart{
+	text-align:left; padding:5px;
+}
+
+.total, .add a{
+	font-size: 13px; color:green; padding:0;
+}
+
+.remove a{
+	color: #bf0100; padding:0;
+}
+.pedido a{
+	color: green; padding:0; 
+}	
+	
+/*** FOOTER ***/
+#footer {
+	clear: both; width: 800px; padding: 5px 0px 5px 0px;
+	background: #ddd; font-size: 10px;
+	text-align: center; color: #444;}
+	
+/****************************/
+
+#checkout{
+	width:500px;
+	margin: 3em auto;
+}
+#form_checkout{	
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 2px 3px #C8C8C8;
+    margin-top: 20px;
+    padding: 16px;
+    width: 420px;
+    
+}
+#form_checkout input, label {
+	  padding: 3px;
+	 
+} 
+#button{
+	margin-top: 3px;
+} 
+#error{
+    border: 1px solid #bf0100;
+    background-color: #FFEBE8;
+    margin: 5px 30px 10px 30px;
+
+}     
+
+
+  /* FORMULARIO DE LOGIN */
+#form_login{
+margin-left: auto; margin-right: auto; margin-top:60px; padding-top: 25px;
+}
+#form_login .padding{
+    padding:0px 0px 4px 40px; 
+}
+#form_login label{
+    color: #484848; font-size:14px;
+}
+#form_login .input{       
+    -moz-border-radius: 7px; -khtml-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; 
+    background-color: #f9f9f9;border: 1px solid #cacaca;
+    font-size: 15px;padding: 8px 10px;width: 300px;
+}   
+#form_login .submit{
+    -moz-border-radius: 15px;-khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;    
+    -webkit-box-shadow: 2px 3px 4px 3px #ccc;box-shadow: 2px 3px 4px 3px #ccc;
+    font-family: arial,verdana,sans-serif; background-color: #f9f9f9;border: 1px solid #cacaca; font-size:14px;
+    font-weight: bold; padding: 8px 10px; cursor: pointer; 
+    margin-left:135px; width: 90px;
+}

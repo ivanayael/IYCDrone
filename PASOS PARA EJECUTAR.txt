@@ -1,0 +1,8 @@
+1) Correr el script "cart.sql" en phpMyAdmin
+2) Reemplazar "php.ini" dentro del directorio xampp
+3) Reemplazar "sendmail.ini" dentro del directorio xampp/sendmail
+4) Agregar la carpeta "cart" al directorio htdocs
+5) Ingresar a http://localhost/cart/ para acceder al sitio de forma local
+6) Para subir imagenes, en la carpeta "Imagenes de prueba" hay algunas extra
+7) Para ver los email de "Contactenos" y de los "pedidos" ingrese a administrador@yopmail.com
+en la web www.yopmail.com
